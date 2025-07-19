@@ -30,7 +30,7 @@ const Home = () => {
                 <Skills/>
                 <Experience/>
                 <Education/>
-                <Projects/>
+               {/*  <Projects/> */}
                 <ContactMe/>
             </main>
 

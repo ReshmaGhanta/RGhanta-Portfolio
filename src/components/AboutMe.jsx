@@ -9,8 +9,8 @@ const AboutMe = () => {
 }
   return (
     <section id="about" className='py-24 px-4 relative'> 
-    <div className='container mx-auto max-w-5xl font-bold mb-12 text-center'>
-        <h2 className='text-4xl md:text-5xl mb-18'> About <span className='font-montserrat text-primary'> Me </span> </h2>
+    <div className='container mx-auto max-w-5xl  mb-12 text-center'>
+        <h2 className='text-4xl md:text-5xl mt-15 mb-18'> A Little bit <span className='font-montserrat text-primary'> About Me </span> </h2>
        
         <div className="max-w-7xl mx-auto space-y-6 grid grid-cols-1 md:grid-cols-12 items-center gap-12">
        
