@@ -1,21 +1,32 @@
 import React from 'react'
+import ImagesReusable from "@/reusableComponents/ImagesReusable";
+import SheCodes from "@/assets/sheCodes.png";
+import ReshmaResume from "@/assets/ReshmaGhantaResume.pdf"
 
 const AboutMe = () => {
+  function openResume(){
+    window.open(ReshmaResume);
+}
   return (
     <section id="about" className='py-24 px-4 relative'> 
     <div className='container mx-auto max-w-5xl font-bold mb-12 text-center'>
-        <h2 className='text-4xl md:text-5xl'> About <span className='font-montserrat text-primary'> Me </span> </h2>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-10 items-center gap-12">
+        <h2 className='text-4xl md:text-5xl mb-18'> About <span className='font-montserrat text-primary'> Me </span> </h2>
+       
+        <div className="max-w-7xl mx-auto space-y-6 grid grid-cols-1 md:grid-cols-12 items-center gap-12">
+       
         {/* Left Section (Image + Buttons) */}
         <div className="md:col-span-4 flex flex-col items-center space-y-6">
+         
           {/* Profile Image */}
-          <div className="w-48 h-48 rounded-full border-4 border-purple-500 p-1 shadow-lg">
-            <img
-              src="/your-profile-image.jpg"
-              alt="Profile"
-              className="w-full h-full object-cover rounded-full"
-            />
-          </div>
+           <div className="w-48 h-48 rounded-full border-4 p-1 shadow-lg" style={{ borderColor: '#ff9587' }} >
+          <span className='relative z-10'> 
+
+         {/*  <div className="w-48 h-48 rounded-full border-4 p-1 shadow-xl bg-gradient-to-tr from-[#ff9587] to-[#ffb87a] relative overflow-hidden">
+  <span className="relative z-10 flex items-center justify-center w-full h-full rounded-full shadow-inner">
+   */}
+               <ImagesReusable data={{ source: SheCodes, avatar: "Avatar", customStyle:"h-full w-full object-cover rounded-full"}}></ImagesReusable>
+             </span>
+           </div>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -23,22 +34,21 @@ const AboutMe = () => {
                 {" "}
                 Get In Touch
               </a>
-
-              <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                Download Resume
+              <a onClick={openResume} className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                 Resume
               </a>
             </div>
         </div>
 
         {/* Right Section (Text) */}
-        <div className="md:col-span-6 space-y-6">
+        <div className="md:col-span-8 space-y-6">
          
-          <ul className="font-opensans space-y-4 text-gray-300 text-xl">
-            <li>👨‍💻 I'm a Software Engineer with 4+ years of experience in software and cloud technologies.</li>
-            <li>🎓 Currently pursuing a BSc in Computer Science, I focus on building scalable solutions that matter.</li>
-            <li>🛠️ From full-stack apps to cloud systems, I've led impactful, enterprise-level projects.</li>
-            <li>🧰 I love automating workflows, optimizing systems, and turning ideas into results. 📈</li>
-            <li>💡 Always curious. Always learning.</li>
+          <ul className="font-opensans space-y-6 text-lg md:text-xl text-left text-muted-foreground max-2-2xl mx-auto font-normal">           
+                <li><span className="mr-5">👩‍💻</span>I'm a experienced Software Engineer with 8+ years of hands-on experience building scalable full-stack applications.</li>
+                <li><span className="mr-5">🧠</span> Deeply invested in mastering system design and cloud architecture patterns to design robust, high-performance distributed systems.</li>
+                <li><span className="mr-5"> 🎯 </span> Strong problem-solving skills with a dedicated focus on mastering data structures and algorithms to craft efficient, optimized solutions.</li>
+                <li> <span className="mr-5">📚</span> Lifelong learner — always eager to upgrade my skills by exploring cutting-edge technologies, frameworks, and best practices.</li>
+                <li><span className="mr-5">💡</span> Driven by curiosity, commitment to code quality, and passionate about building solutions that make a difference.</li>
           </ul>
         </div>
       </div>
