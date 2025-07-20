@@ -32,10 +32,10 @@ const ContactMe = () => {
                           <input type="text" id="name" name="name" required className='w-full px-5 py-4 rounded-md text-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='Enter your full name ...'/>
                     
                           <label htmlFor='email'className='block text-md font-medium mb-3 mt-4'> Your Email</label>
-                          <input type="email" id="email" name="email" required className='w-full px-5 py-4 rounded-md  text-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='appleseed@gmail.com ...'/>
+                          <input type="email" id="email" name="email" required className='w-full px-5 py-4 rounded-md  text-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='hello@gmail.com ...'/>
                    
                           <label htmlFor='message'className='block text-md font-medium mb-3 mt-2'> Your Message</label>
-                          <textarea  id="message" name="message" required className='w-full mb-6 px-5 py-4 rounded-md text-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none' placeholder='Hello!! I like to talk about ...'/>
+                          <textarea  id="message" name="message" required className='w-full mb-6 px-5 py-4 rounded-md text-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none' placeholder='Hello!! I would like to talk about ...'/>
                    
                           <button type="submit" className={cname("cosmic-button w-full flex items-center justify-center gap-2")}>
                             Send Message

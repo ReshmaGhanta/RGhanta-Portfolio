@@ -21,9 +21,6 @@ const AboutMe = () => {
            <div className="w-48 h-48 rounded-full border-4 p-1 shadow-lg" style={{ borderColor: '#ff9587' }} >
           <span className='relative z-10'> 
 
-         {/*  <div className="w-48 h-48 rounded-full border-4 p-1 shadow-xl bg-gradient-to-tr from-[#ff9587] to-[#ffb87a] relative overflow-hidden">
-  <span className="relative z-10 flex items-center justify-center w-full h-full rounded-full shadow-inner">
-   */}
                <ImagesReusable data={{ source: SheCodes, avatar: "Avatar", customStyle:"h-full w-full object-cover rounded-full"}}></ImagesReusable>
              </span>
            </div>
@@ -44,11 +41,11 @@ const AboutMe = () => {
         <div className="md:col-span-8 space-y-6">
          
           <ul className="font-opensans space-y-6 text-lg md:text-xl text-left text-muted-foreground max-2-2xl mx-auto font-normal">           
-                <li><span className="mr-5">👩‍💻</span>I'm a experienced Software Engineer with 8+ years of hands-on experience building scalable full-stack applications.</li>
+                <li><span className="mr-5">👩‍💻</span>I'm an experienced Software Engineer with 8+ years of hands-on experience building scalable full-stack applications.</li>
                 <li><span className="mr-5">🧠</span> Deeply invested in mastering system design and cloud architecture patterns to design robust, high-performance distributed systems.</li>
                 <li><span className="mr-5"> 🎯 </span> Strong problem-solving skills with a dedicated focus on mastering data structures and algorithms to craft efficient, optimized solutions.</li>
-                <li> <span className="mr-5">📚</span> Lifelong learner — always eager to upgrade my skills by exploring cutting-edge technologies, frameworks, and best practices.</li>
-                <li><span className="mr-5">💡</span> Driven by curiosity, commitment to code quality, and passionate about building solutions that make a difference.</li>
+                <li> <span className="mr-5">📚</span> Lifelong learner — always eager to upgrade my skills by exploring cutting-edge technologies, frameworks and best practices.</li>
+                <li><span className="mr-5">💡</span> Driven by curiosity, commitment to code quality and passionate about building solutions that make a difference.</li>
           </ul>
         </div>
       </div>

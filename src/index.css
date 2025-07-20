@@ -161,3 +161,24 @@
   text-align: center;
    font-family: 'Playfair Display'; 
 }
+
+/* Push date to the left of the icon */
+.custom-timeline-ms .vertical-timeline-element-date {
+  position: absolute;
+  left: -120px; /* Adjust this value to match your spacing */
+  top: 20px;
+  text-align: left;
+  color: #fff; /* Optional: make it black */
+  font-size: 1rem; /* Tailwind equivalent of text-base */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.custom-timeline-bs .vertical-timeline-element-date {
+  position: absolute;
+  left: -120px; /* Adjust this value to match your spacing */
+  top: 20px;
+  text-align: left;
+  color: #fff; /* Optional: make it black */
+  font-size: 1rem; /* Tailwind equivalent of text-base */
+  font-family: 'Open Sans', sans-serif;
+}
