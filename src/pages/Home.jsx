@@ -2,7 +2,7 @@ import React from 'react'
 import ThemeToggle from '../components/ThemeToggle';
 import Background from '@/components/Background';
 import Navbar from '../components/Navbar';
-import HomePage from '../components/HomePAge';
+import HomePage from '../components/HomePage';
 import AboutMe from '@/components/AboutMe';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
