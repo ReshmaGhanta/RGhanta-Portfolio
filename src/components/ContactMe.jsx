@@ -7,7 +7,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
-import { set } from 'immutable';
 
 
 const ContactMe = () => {
