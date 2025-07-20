@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const jobs = [
     {
       id: 1,
-      title: "Sr.Full Stack Developer",
+      title: "Sr. Full Stack Developer",
       company: "Covert Alert",
       location: "Indianpolis, IN",
       duration: "June 2020 - Present",
@@ -17,7 +17,7 @@ const jobs = [
     },
     {
       id: 2,
-      title: "Jr.Full Stack Developer",
+      title: "Jr. Full Stack Developer",
       company: "Covert Alert",
       location: "Indianpolis, IN",
       duration: "July 2018 – June 2020",

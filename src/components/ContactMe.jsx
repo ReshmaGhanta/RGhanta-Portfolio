@@ -68,7 +68,7 @@ const ContactMe = () => {
 
   return (
     <section id="contact" className='py-24 px-4 relative'> 
-        <div className='container mx-auto max-w-5xl'>
+        <div className='container mx-auto max-w-5xl mt-15'>
         <h2 className='text-4xl md:text-5xl mb-4 text-center'> Let's Get In <span className='font-montserrat text-primary'> Touch </span> </h2>
         <p className="text-center text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
         Open to new opportunities where I can learn, contribute, and grow. Feel free to reach out.
