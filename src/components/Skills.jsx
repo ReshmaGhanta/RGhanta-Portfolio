@@ -39,7 +39,7 @@ const skills = [
 const Skills = () => {
   return <section id="skills" className='py-24 px-4 relative'>
     <div className='container mx-auto max-w-5xl mb-15 mt-24  text-center'>
-        <h2 className='text-4xl md:text-5xl mb-20'> Technical  <span className='font-montserrat text-primary'> Skills </span> </h2>
+        <h2 className='text-4xl md:text-5xl mb-'> Technical  <span className='font-montserrat text-primary'> Skills </span> </h2>
     </div>
    
     <div class="relative overflow-hidden w-11/12 mx-auto py-6 ">
@@ -60,51 +60,7 @@ const Skills = () => {
         ))}
       </Marquee>
       </div>
-
-
-
-
-
-      {/* <div className="logos">
-      <div className="scroll-slide">
-      <div className="slide">
-      <ImagesReusable data={{ source: SheCodes, avatar: "Avatar", customStyle:"h-50 w-50 "}}></ImagesReusable>
-      <span>Java</span>
-        </div>
-        
-        <span>TypeScript</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Next.js</span>
-        <span>
-          Spring Boot</span>
-        <span>Node.js</span>
-        <span>Express.js</span>
-        <span>MySQL</span>
-        <span>MongoDB</span>
-        <span>Git</span>
-        <span>Unit Testing</span>
-        <span>Data structures</span>
-      </div>
-      <div className="scroll-slide">
-        <span>Java</span>
-        <span>TypeScript</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Next.js</span>
-        <span>Spring Boot</span>
-        <span>Node.js</span>
-        <span>Express.js</span>
-        <span>MySQL</span>
-        <span>MongoDB</span>
-        <span>Git</span>
-        <span>Unit Testing</span>
-        <span>Data structures</span>
-      </div>
-    </div> */}
-        
         <h3 className='text-3xl md:text-4xl mb-4 mt-35 text-center '>  Licenses & <span className='font-montserrat text-primary'> Certifications </span> </h3>
-
         <div className='text-center flex flex-col items-center'>
         <ul className="font-opensans space-y-2 text-lg md:text-xl text-left text-muted-foreground max-2-2xl mx-auto font-normal">           
                 <li className="flex items-center gap-2"><BiSolidCertification /> Certified Scrum Master</li>

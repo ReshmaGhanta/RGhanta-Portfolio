@@ -9,10 +9,13 @@ const jobs = [
       duration: "June 2020 - Present",
       project: "E911 Live",
       duties: [
-        "5+ years of JavaScript/TypeScript experience",
-        "Expertise with React ecosystem (Redux, Next.js, etc.)",
-        "Experience with responsive design principles",
-        "Familiarity with modern frontend build pipelines"
+        "Led the development of a real-time emergency mapping platform using React.js, Node.js, and Firebase—enabling seamless user–first responder communication through location tracking, live video (AWS Kinesis), and audio (AWS IVS) streaming.",
+        "Engineered a discreet voice-activated system for emergency activation and automatic media recording, leveraging customizable commands for user safety.",
+        "Integrated Mapbox and external GPS receiver software, boosting location accuracy and system performance by 70%, with geofencing logic improving operational reach by 200%.",
+        "Optimized real-time data flow between users and responders using Socket.io and Firebase rules, reducing latency by 80% and enforcing strict data separation and integrity.",
+        "Built secure 2FA workflows using Firebase MFA (mobile) and Nodemailer (email), enhancing authentication reliability.",
+        "Collaborated with cross-functional teams and stakeholders, including first responders and UX designers, aligning features with operational needs and onboarding two universities.",
+        "Mentored interns, facilitated Agile ceremonies as a Certified Scrum Master (CSM), and authored HLD/LLD documentation to accelerate team velocity and delivery."
       ],
     },
     {
@@ -23,10 +26,12 @@ const jobs = [
       duration: "July 2018 – June 2020",
       project: "911 Mapping System",
        duties: [
-        "Strong experience with Node.js and Python",
-        "Proficiency with database systems (SQL and NoSQL)",
-        "Experience with Docker and Kubernetes",
-        "Knowledge of cloud platforms (AWS, GCP, or Azure)"
+        "Built a full-stack emergency response application using HTML, CSS, JavaScript (frontend) and Node.js, Express.js, Firebase (backend) with real-time data sync.",
+        "Implemented an interactive mapping interface with Google Maps API, enabling precise geolocation and visual tracking.",
+        "Integrated Amazon Kinesis Video Streams to fetch and display real-time video feeds, enhancing situational awareness.",
+        "Developed voice-guided navigation using the Speech Synthesis API, improving accessibility for first responders.",
+        "Delivered and demoed the pilot system to first responders, iterated with 4 major improvements based on real-world feedback.",
+        "Engineered county-based geofencing; addressed jurisdiction overlap challenges that laid the groundwork for the E911 Live system evolution."
       ],
     },
     {
@@ -36,10 +41,13 @@ const jobs = [
       location: "Fairfax, VA",
       duration: "Jan 2017 - May 2018",
       duties: [
-        "Portfolio demonstrating UX process",
-        "Proficiency with Figma and Adobe Creative Suite",
-        "Experience conducting user research",
-        "Understanding of accessibility standards"
+        "Designed and developed a responsive web portal for the Computer Science department using HTML, CSS, and JavaScript, featuring a dynamic, user-friendly survey interface.",
+        "Enhanced UX with real-time updates using AJAX and JSON for asynchronous form data population and submission.",
+        "Implemented secure user authentication and session management via Java servlets and cookies, ensuring reliable state handling.",
+        "Improved UI/UX with jQuery-driven tooltips and tabbed navigation, enabling intuitive, event-based interactions.",
+        "Built a scalable, modular web app using Java, JSP, and AJAX, deployed on Apache Tomcat with robust JDBC-based database connectivity.",
+        "Led low-level design and module ownership, ensuring clean, maintainable architecture and high-performance components.",
+        "Contributed across the SDLC in an Agile environment, following Test-Driven Development (TDD) to maintain code quality and reliability."
       ],
       
     },
